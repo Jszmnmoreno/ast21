@@ -45,7 +45,7 @@ CREATE TABLE `SALA_REMOTA` (
 	`nombre` NVARCHAR(255),
 	`responsable` NVARCHAR(50),
 	`telefono` NVARCHAR(50),
-	`email_responsable` NVARCHAR(70),
+	`email_responsable` NVARCHAR(76),
 	`ip` NVARCHAR(50),
 	`isdn` NVARCHAR(50),
 	CONSTRAINT `PrimaryKey` PRIMARY KEY (`id_sala_remota`)
